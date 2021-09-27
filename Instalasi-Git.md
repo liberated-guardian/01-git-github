@@ -7,6 +7,7 @@ Sebelumnya download Git Installer terlebih dahulu di [sini](https://git-scm.com/
 3. Selanjutnya akan disuruh memilih komponen dari Git yang akan diinstall, biarkan seperti default saja lalu next.
 ![Gambar Instalasi03](images/1/install03.png)
 4. Installer akan memberikan tawaran mengenai folder yang akan dibuat pada start menu windows. Folder yang dibuat dapat diganti namun opsional, klik next.
+
 ![Gambar Instalasi04](images/1/install04.png)
 5. Pilih text editor yang akan digunakan, disini saya akan menggunakan VSCode dari Microsoft.
 ![Gambar Instalasi05](images/1/install05.png)
@@ -19,8 +20,10 @@ Sebelumnya download Git Installer terlebih dahulu di [sini](https://git-scm.com/
 9. Pilih OpenSSL library agar mempermudah Git dalam memvalidasi server yang akan diakses, seperti GitHub, GitLab, dll.
 ![Gambar Instalasi09](images/1/install09.png)
 10. Gunakan CRLF atau pilihan pertama untuk konveksi akhir baris.
+
 ![Gambar Instalasi10](images/1/install10.png)
 11. Pilih MinTTY untuk terminal yang akan digunakan oleh Git Bash.
+
 ![Gambar Instalasi11](images/1/install11.png)
 12. Pilih Default saja, agar dapat menggunakan fast-forward dan merge.
 ![Gambar Instalasi12](images/1/install12.png)
@@ -31,12 +34,14 @@ Sebelumnya download Git Installer terlebih dahulu di [sini](https://git-scm.com/
 15. Pada opsi ini, saya tidak menggunakan keduanya, karena masih dalam tahap Experimental, tentunya masih banyak bug.
 ![Gambar Instalasi15](images/1/install15.png)
 16. Tunggu proses install dari Git hingga selesai.
+
 ![Gambar Instalasi16](images/1/install16.png)
 17. Jika sudah, klik finish saja.
 ![Gambar Instalasi17](images/1/install17.png)
 18. Untuk memeriksa versi, dan untuk validasi apakah Git sudah terinstall kita bisa cek melewati Command Prompt pada Windows. Gunakan perintah berikut:
 ```
-$ git --version
+git --version
 ```
 ![Gambar Instalasi18](images/1/install18.png)
+
 Jika sudah muncul versi dari Git yang sudah diinstal dan sesuai dengan Git yang didownload maka bisa lanjut ke [Konfigurasi Git](https://github.com/liberated-guardian/01-git-github/blob/main/Konfigurasi-Git.md).
