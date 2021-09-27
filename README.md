@@ -1,1 +1,2 @@
-# Welcome to My Repo
+# Praktik GitHub
+Lorem Ipsum
