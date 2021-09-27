@@ -38,7 +38,7 @@ Perubahan pada file lokal bisa terjadi karena beberapa hal berikut:
 2. File diedit.  
 3. Membuat file baru.  
 4. Menghapus direktori.   
-#### Setelah melakukan satu atau beberapa hal diatas, lakukan *push* ke Repo GitHub. Contohnya sebagai berikut:  
+Setelah melakukan satu atau beberapa hal diatas, lakukan *push* ke Repo GitHub. Contohnya sebagai berikut:  
 - Buat file baru bernama README dengan ekstensi .md pada direktori Repo, lalu isikan "Bebas".  
 ![Repo11](images/3/repo11.png)  
 Dapat dilihat itu terdapat symbol "U" yang dimaksud Untracked.
