@@ -5,11 +5,12 @@ Sebelum mulai membuat Repo pada GitHub, sebagai pengguna Git kita setidaknya har
 $ git config --global user.name "Nama Anda"
 $ git config --global user.email emailanda@domain.com
 ```
-Pastikan mengisi nama dan alamat email yang sesuai dengan akun GitHub anda, jika sudah dapat dipastikan kembali dengan menggunaka perintah sebagai berikut:
+Pastikan mengisi nama dan alamat email yang sesuai dengan akun GitHub anda, jika sudah dapat dipastikan kembali dengan menggunakan perintah sebagai berikut:
 ```
 $ git config --list
 ```
 Lalu kurang lebih akan keluar seperti ini:  
 ![konfig01](images/2/konfig01.png)  
 Dapat dilihat pada 2 baris akhir, terdapat username dan alamat email saya.  
+
 Jika sudah sesuai dengan akun GitHub, maka dapat lanjut ke [Pengelolaan Repo](https://github.com/liberated-guardian/01-git-github/blob/main/Pembuatan-dan-Pengelolaan-Repository.md).
