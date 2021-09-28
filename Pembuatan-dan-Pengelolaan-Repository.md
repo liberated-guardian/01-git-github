@@ -20,7 +20,7 @@ Untuk membuat Repo baru, ikutilah langkah seperti berikut:
 Setelah itu Repo yang sudah dibuat dapat diakses pada `https://github.com/<username>/<nama repo>`.  
 
 ## Clone Repository
-Proses **clone** dilakukan untuk menduplikat Repo yang dibuat pada GitHub pada file lokal. Untuk melakukan **clone**, lakukan langkah seperti berikut:  
+Proses **clone** dilakukan untuk menduplikat Repo yang dibuat pada GitHub dan men-*download* Repo tersebut agar tersedia pada file lokal. Untuk melakukan **clone**, lakukan langkah seperti berikut:  
 1. Pertama download ekstensi [ini](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github), ekstensi tersebut dapat membantu VSCode dalam mengerjakan Git.  
 ![Repo05](images/3/repo05.png)  
 
@@ -33,9 +33,9 @@ Proses **clone** dilakukan untuk menduplikat Repo yang dibuat pada GitHub pada f
 4. Setelah itu diminta untuk memilih folder dimana **Clone** dari Repo akan disimpan. Saya memilih lokasi default dari VSCode berikan atau seperti gambar dibawah.  
 ![Repo08](images/3/repo08.png)  
 
-Jika sudah, dapat dilihat pada file lokal yang sudah dipilih di langkah 4, didalam folder tersebut seharusnya terdapat nama folder yang sesuai dengan nama Repo yang barusan anda buat, namun tidak ada isinya atau kosong melainkan hanya folder yang memiliki nama sama seperti Repo yang telah dibuat. Setiap Repo memiliki branch atau cabang, secara default cabang utama yang dibuat akan bernama **master**, kita akan ubah cabang utama tersebut menjadi **main**. Berikut caranya pada VSCode:  
+Jika sudah, dapat dilihat pada direktori yang sudah dipilih di langkah 4, didalam direktori tersebut seharusnya terdapat nama folder yang sesuai dengan nama Repo yang barusan anda buat, namun tidak ada isinya atau kosong. Setiap Repo memiliki *branch* atau cabang, secara default cabang utama yang dibuat akan bernama **master**, kita akan ubah cabang utama tersebut menjadi **main**. Berikut caranya pada VSCode:  
 
-1. Pada VSCode, klik Source Control, ikuti gambar dibawah.  
+1. Pada VSCode klik *Source Control*, lalu cari **Rename Branch** pada *more action > Branch*.  
 ![Repo09](images/3/repo09.png)  
 
 2. Lalu isikan **main** pada tempat yang tersedia.  
@@ -44,7 +44,7 @@ Jika sudah maka dapat dilihat dikiri bawah terdapat tulisan **main**. Lalu buka 
 ![terminal](images/3/terminal.png)  
 
 ## Pengelolaan Repository
-Setelah **clone** ke komputer lokal, semua konten yang diubah atau diedit pada file lokal hasilnya akan di-*push* ke remote Repo di GitHub. Dengan demikian, sebisa mungkin konsisten dengan penggunaan remote lokal. Jika Repo lokal, **clone** ulang ke direktori yang kosong setelah itu baru lakukan pengelolaan Repo.
+Setelah **clone** ke komputer lokal, semua konten yang diubah atau diedit pada file lokal hasilnya akan di-*push* ke remote Repo di GitHub. Dengan demikian, sebisa mungkin konsisten dengan penggunaan remote lokal. Jika kehilangan Repo lokal, **clone** ulang ke direktori yang kosong setelah itu baru lakukan pengelolaan Repo.
 ### **Commit tanpa Branching dan Merging**
 Perubahan pada file lokal bisa terjadi karena beberapa hal berikut:  
 1. File dihapus.  
@@ -58,7 +58,7 @@ Setelah melakukan satu atau beberapa hal diatas, lakukan *push* ke Repo GitHub. 
 ![Repo11](images/3/repo11.png)  
 Dapat dilihat itu terdapat symbol "U" yang dimaksud Untracked. 
 
-2. Navigasi ke Source Control, klik *commit* (tombol checklist) lalu *yes*.  
+2. Navigasi ke *Source Control*, klik *commit* (tombol checklist) lalu *yes*.  
 ![Repo12](images/3/repo12.png)  
 
 3. Lalu tambahkan *comment* untuk *commit* yang akan dilakukan.  
@@ -69,9 +69,9 @@ Dapat dilihat itu terdapat symbol "U" yang dimaksud Untracked.
 Cara ini cukup simple memang, tapi jika terjadi kesalahan susah dalam memperbaiki. Lebih bagus jika kita menggunakan metode *branching* dan *merging*.  
 
 ### **Mengubah Isi dengan Branching dan Merging**
-Dengan menggunakan metode **Branching** dan **Merging**, setiap kali melakukan perubahan maka perubahan tersebut akan terjadi pada cabang lain. Setelah itu cabang lain itu akan dapat disatukan dengan cabang utama dengan **Merge Branching**. Metode ini lebih aman jika saat melakukan perubahan terjadi suatu kesalahan maka kita dapat menghapus perubahan yang baru saja dibuat dimana kesalahan itu terjadi. Cara melakukannya adalah sebagai berikut:  
+Dengan menggunakan metode *Branching* dan *Merging*, setiap kali melakukan perubahan maka perubahan tersebut akan terjadi pada cabang lain. Setelah itu cabang lain tersebut akan dapat disatukan dengan cabang utama dengan **Merge Branching**. Metode ini lebih aman jika saat melakukan perubahan terjadi suatu kesalahan maka kita dapat menghapus perubahan yang baru saja dibuat dimana kesalahan itu terjadi. Cara melakukannya adalah sebagai berikut:  
 
-1. Buat cabang baru untuk menampung perubahan pada **Source Control** lalu **Create Branch** dan berikan nama cabang, saya menamai cabang tersebut "edit-1".  
+1. Buat cabang baru untuk menampung perubahan pada *Source Control* lalu **Create Branch** (*more action > Branch*) dan berikan nama cabang, saya memberi nama cabang tersebut "edit-1".  
 ![Repo15](images/3/repo15.png)  
 
 2. Lakukan perubahan pada cabang "edit-1" (dapat dilihat dikiri bawah mana cabang yang sedang digunakan), misalnya saya tambahkan sesuatu dalam file README lalu saya save filenya. Dapat dilihat pada file README terdapat logo M, artinya Modified atau terjadi perubahan pada file.  
@@ -102,9 +102,9 @@ Dengan menggunakan metode **Branching** dan **Merging**, setiap kali melakukan p
 ![Repo24](images/3/repo24.png)  
 
 ### **Membatalkan Perubahan**
-Dengan menggunakan metode **Branching** dan **Merging** kita juga dapat melakukan pengulangan terhadap perubahan, efeknya adalah perubahan yang dibuat pada cabang baru itu akan dihapus dan dikembalikan sebelum saat belum diubah sama sekali. Berikut merupakan caranya:  
+Dengan menggunakan metode *Branching* dan *Merging* kita juga dapat melakukan pengulangan terhadap perubahan, efeknya adalah perubahan yang dibuat pada cabang baru itu akan dihapus dan dikembalikan sebelum diubah sama sekali. Berikut merupakan caranya:  
 
-1. Pastikan membuat perubahan pada branch atau cabang yang berbeda.  
+1. Pastikan membuat perubahan pada *branch* atau cabang yang berbeda.  
 ![Repo25](images/3/repo25.png)  
 Dapat dilihat di gambar atas, pada file README sudah saya tambahkan beberapa perubahan.
 
