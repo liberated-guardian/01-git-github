@@ -1,8 +1,8 @@
 # Pembuatan dan Pengelolaan Repository
-###### [ [KEMBALI](https://github.com/liberated-guardian/01-git-github) ]  
+
 Sebagai pengguna Git dan GitHub, kita dapat membuat Repository (biasa disingkat Repo) di GitHub. Repo tersebut bisa dibuat public maupun private sesuai kebutuhan. Repo dapat digunakan sebagai penyimpanan digital. Repo yang ada pada GitHub ini juga tersedia pada file lokal. Dengan demikian penyimpanan pada kedua Repo harus disinkronisasi, cara agar keduanya dapat sinkron atau sama adalah dengan menggunakan **Push**, yaitu dengan meng-upload file lokal pada GitHub dan juga **Pull**, yaitu download file dari GitHub untuk disimpan pada file lokal.  
 
-##### **Catatan: Langkah-langkah di bawah dilakukan menggunakan [VSCode](https://code.visualstudio.com/).**
+**Catatan: Langkah-langkah di bawah dilakukan menggunakan [VSCode](https://code.visualstudio.com/).**
 
 ## Membuat Repository
 Untuk membuat Repo baru, ikutilah langkah seperti berikut:  

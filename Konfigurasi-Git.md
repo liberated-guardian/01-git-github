@@ -1,5 +1,5 @@
 # Konfigurasi Git  
-###### [ [KEMBALI](https://github.com/liberated-guardian/01-git-github) ]  
+
 Sebelum mulai membuat Repo pada GitHub, sebagai pengguna Git kita setidaknya harus dapat mengubah email dan username pada file lokal. Email dan Username yang kita tetapkan pada konfigurasi ini akan dapat digunakan oleh GitHub untuk melihat catatan perubahan yang terjadi pada Repo. Pada OS Windows, file konfigurasi ini terdapat pada **C:\users\\(nama PC anda)** dengan nama file **.gitconfig**. Berikut cara mengganti email dan usernamenya dengan menggunakan Git Bash:  
 ```
 $ git config --global user.name "Nama Anda"
